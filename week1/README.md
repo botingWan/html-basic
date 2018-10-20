@@ -211,7 +211,7 @@ they are,
     4.  Null
         - ```Null``` has been notorious for having a type of ```object``` in Js.
         - Nul vs undefined
-        |    Value     | typeof operator| booleanic value  | call property
-        | :-------------: |:-------------:| :-----:|:----:|
-        | null      | object  | false |error
-        | undefined      | undefined   | false   |   error |
+        |    Value     | typeof operator| booleanic value  | call property |
+        | :----------: |:--------------:| :---------------:|:-------------:|
+        | null | object  | false | error |
+        | undefined| undefined |false|error |
