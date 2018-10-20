@@ -121,7 +121,7 @@ This is the simplest programming you can have in JS.
 
 Probably you won't understand what the above statement. Nevermind. you should be above to understand it after learning the <b>data types</b> 
 
-### Data types
+#### Data types
 In Computer Science, a data type is simply a classification of data whichs tells the system how the programmer intends to use the data. You know it is food so you feed on it, you know it is clothes so you wear on it.
 
 Everything starts from <b>Variable</b>, it is a vector to carry the data, with the keyword ```let``` and assignment operator ```=```, we can easily create our own variable in JS. 
@@ -210,8 +210,10 @@ they are,
     
     4.  Null
         - ```Null``` has been notorious for having a type of ```object``` in Js.
-        - Nul vs undefined
-        |    Value     | typeof operator| booleanic value  | call property |
-        | :----------: |:--------------:| :---------------:|:-------------:|
-        | null | object  | false | error |
-        | undefined| undefined |false|error |
+        ```
+          typeof undefined           // undefined
+          typeof null                // object
+
+          null === undefined         // false
+          null == undefined          // true
+        ```
