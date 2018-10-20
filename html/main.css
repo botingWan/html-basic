@@ -29,6 +29,7 @@ button {
 	border: none;
 	background-color: #fff;
 	color: #6459BC;
+	transition: all 1s ease-in-out;
 }
 
 button:hover,
@@ -38,5 +39,5 @@ button[type="submit"]:focus{
 	/* background-color: rgba(238,255,190,0.5);
 	color: rgba(100,0,0,0.3); */
 	outline: 0;
+	transform: scale(1.1);
 }
-
